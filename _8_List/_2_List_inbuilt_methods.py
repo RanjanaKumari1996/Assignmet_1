@@ -7,7 +7,8 @@ print("Og : ",lst)
 # lst.insert(2,100)        # used to add an element at specific position on the bases of index
 # print("Insert : ",lst)
 
-# lst.extend([5,6,7,8])
+# lst.extend([5,6,7,8]) #When you want to add a list of elements in a list
+
 # print("Extend : ",lst)
 
 # lst.remove(7)              # deletes the value on the bases of element passed
@@ -16,7 +17,7 @@ print("Og : ",lst)
 # lst.pop()                   # bydefault deletes the last value of list
 # print("Pop : ",lst)
 
-# lst.pop(1)                   # deletes the value on the bases of index passed
+# lst.pop(0)                   # it deletes the mentioned index value of list
 # print("Pop : ",lst)
 
 # lst.reverse()
@@ -28,17 +29,18 @@ print("Og : ",lst)
 # lst.sort(reverse=True)   # descending order
 # print("Sort : ",lst)
 
-# lst.clear()
-# print(lst)
+# lst.clear() #it will clear the list
+# print(lst) 
 
-# counter = lst.count(7)
-# print("Count : ",counter)
+counter = lst.count(7) #it will count the occurence of 7 in a list
+print("Count : ",counter)
 
-# index_demo = lst.index(4)
-# print("Index : ",index_demo)
+index_demo = lst.index(2) #it will give the index value of 2
+print("Index : ",index_demo)
 
-# length = len(lst)
-# print(length)
+
+length = len(lst) #length of a list
+print(length)
 
 str1 = "Ankit"
 count = 0
